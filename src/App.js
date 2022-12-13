@@ -7,6 +7,7 @@ import {
 } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import ListIcon from "@mui/icons-material/List";
+import "./App.css";
 // import components
 import Header from "./components/Header";
 import AddTask from "./components/add-task/AddTask";
@@ -27,6 +28,7 @@ function App() {
               borderRadius: 2,
               p: 2,
               mt: 5,
+              mb: 1,
               position: "fixed",
               bottom: 0,
               minWidth: 300,
